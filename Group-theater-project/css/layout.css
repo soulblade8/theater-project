@@ -1,0 +1,41 @@
+/*done by christian smith with the help of Thomas*/
+html {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    line-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    background-color: #FF9375;
+    text-decoration: none;
+}
+
+nav ul::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+nav a:hover {
+    background-color: #FF474E;
+}
+
+footer {
+    clear: left;
+    background-color: #D0D0B3;
+    text-align: center;
+}
