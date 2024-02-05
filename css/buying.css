@@ -1,3 +1,7 @@
 div.info {
-    background-color: #FF474E;
+    
+    background-image: radial-gradient(#D0D0B3 20%,#FF9375 40%,#FF474E 50%,#C10635 100%);
+    word-wrap: break-word;
+    margin: 200px;
+    border-radius: 20px;
 }
