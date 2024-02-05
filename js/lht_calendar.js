@@ -118,8 +118,8 @@ function calDays(calDate) {
       }  else {
       htmlCode += "<td class='calendar_dates'>" + i + dayEvent[i] + "</td>";
    }
+  
       if (weekDay === 6) htmlCode += "</tr>";
-   }
-
+ }
    return htmlCode;
 }
