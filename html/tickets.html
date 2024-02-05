@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy our tickets</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/buying.css" rel="stylesheet">
+    <link href="../css/layout.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/calendar.html">Calendar</a></li>
+                <li><a href="../html/tickets.html">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="info">
+      <form action="action_page.php">
+        <div>
+        <label for="fname">First Name</label>
+        <input type="text" class="fname" name="firstname" placeholder="Your name..">
+        </div>
+
+        <div>
+        <label for="lname">Last Name</label>
+        <input type="text" class="lname" name="lastname" placeholder="Your last name..">
+        </div>
+
+        <div>
+        <label for="show-info">Shows</label>
+        <select id="Shows" name="show">
+          <option value="mainShow">Main Show</option>
+          <option value="sideShow">Side Show</option>
+          <option value="afterShow">After Show</option>
+        </select>
+      </div>
+        <input class="zip" type="text" placeholder="(-nnn)-nnnn" name="zip">
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+</body>
+</html>
