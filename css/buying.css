@@ -7,7 +7,12 @@ div.info {
     padding-left: 600px;
 }
 
+/*it adds flair to the page by adding a gradient*/
 body{
     background: center/cover no-repeat linear-gradient(45deg,#D0D0B3 20%,#FF9375 40%,#FF474E 50%,#C10635 100%);
     height: 100vh;
+}
+
+input#zip:focus:valid{
+background: rgb(220,255,220);
 }
